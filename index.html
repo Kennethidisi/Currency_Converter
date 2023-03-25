@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="Author"  content="Idisi Kenneth">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="" width="30" class="logo" title="Codeprof Academy">
+        <nav>
+            <a href=""><span><img src="home.png" alt="" width="25"></span> <span class="nav_font">Home</span></a>
+            <a href=""><span><img src="about.png" alt="" width="25"></span> <span class="nav_font">About</span></a>
+            <a href=""><span><img src="download.png" alt="" width="25"></span> <span class="nav_font">Download</span></a>
+            <a href=""><span><img src="technical.png" alt="" width="25"></span> <span class="nav_font">Technical support</span></a>
+            <a href=""><span><img src="help.png" alt="" width="25"></span> <span class="nav_font">Help</span></a>
+        </nav>
+        <img src="menu.png" alt="" width="30" class="menu">
+    </header>
+
+    <main>
+        
+        <section>
+            <h3>CURRENCY CONVERTER</h3>
+
+            <div class="currency">
+                <span class="currency_input">
+                    <label>From</label>
+                    <select class="from">
+                        <option value="">---</option>
+                        <option value="USD">USD</option>
+                        <option value="EUR">EUR</option>
+                        <option value="GBP">GBP</option>
+                        <option value="NGN">NGN</option>
+                    </select>
+                </span>
+
+                <span class="arrow">⇄</span>
+
+                <span class="currency_input">
+                    <label>To</label>
+                    <select class="to">
+                        <option value="">---</option>
+                        <option value="USD">USD</option>
+                        <option value="EUR">EUR</option>
+                        <option value="GBP">GBP</option>
+                        <option value="NGN">NGN</option>
+                    </select>
+                </span>
+            </div>
+
+            <div class="amount-div">
+                <input type="number" placeholder="Enter Amount"  class="amount">
+            </div>
+
+            <button class="convert_btn">CONVERT</button>
+
+             <div class="result">
+                <p class="figure">
+                    0.00
+                </p>
+             </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>
+            &copy; Copyright <span class="year"></span>. All rights reserved. Powered by Kenneth
+        </p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
